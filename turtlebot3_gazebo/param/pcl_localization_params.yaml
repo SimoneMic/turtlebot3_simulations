@@ -1,0 +1,27 @@
+#pcl_localization_ros2:
+/**:
+  ros__parameters:
+    base_frame_id: base_footprint
+    odom_frame_id: base_footprint
+    global_frame_id: map
+    registration_method: "NDT"
+    ndt_resolution: 3.0
+    ndt_step_size: 0.1
+    transform_epsilon: 0.01
+    voxel_leaf_size: 1.0
+    scan_max_range: 30.0
+    scan_min_range: 0.3
+    scan_period: 0.1
+    use_pcd_map: true
+    map_path: "/home/user1/ros2_workspace/src/turtlebot3_simulations/turtlebot3_gazebo/param/map.pcd"
+    set_initial_pose: true
+    initial_pose_x: 10.7665
+    initial_pose_y: -7.3433
+    initial_pose_z: 0.0
+    initial_pose_qx: 0.0
+    initial_pose_qy: 0.0
+    initial_pose_qz: 0.4237
+    initial_pose_qw: 1.0
+    use_odom: false
+    use_imu: false
+    enable_debug: true
